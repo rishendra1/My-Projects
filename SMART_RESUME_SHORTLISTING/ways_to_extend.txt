@@ -1,0 +1,26 @@
+class Fresher : public Candidate {
+    double cgpa;
+    int projects;
+    int internships;
+
+public:
+    Fresher(string id, string name, string email, int age, string type,
+            vector<string> skills, double cgpa, int projects, int internships)
+        : Candidate(id, name, email, age, type, skills),
+          cgpa(cgpa), projects(projects), internships(internships) {}
+
+class Experienced : public Candidate {
+    double years;
+    string company;
+    string capstoneProject;
+
+public:
+    Experienced(string id, string name, string email, int age, string type,
+                vector<string> skills, double years, string company, string capstoneProject)
+        : Candidate(id, name, email, age, type, skills),
+          years(years), company(company), capstoneProject(capstoneProject) {}
+
+
+score = (cgpa * 0.6) + (projects * 0.2) + (internships * 0.2)
+
+score = (years * 0.5) + (companiesWorked * 0.3) + (capstoneQuality * 0.2)

@@ -1,0 +1,5 @@
+ID,Name,Email,Age,Type,Skills,Score,ExtraField
+C030,Rakesh,r30@mail.com,23,Fresher,C++;ML;DSA,9.5,9.500000
+C025,Mahesh,m25@mail.com,22,Fresher,Python;ML,9.4,9.400000
+C013,Deepak,d13@mail.com,22,Fresher,C++;ML;Python,9.3,9.300000
+C047,Bhargav,b47@mail.com,23,Fresher,Python;AI,9.2,9.200000
